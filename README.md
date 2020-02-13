@@ -173,13 +173,34 @@ Component Storiesはシンプルで読みやすく、Storybookの内部APIから
 ## ハンズオン
 
 1. BlockButtonコンポーネントのStoryを弄ってみよう
+
+```command
+git clone https://github.com/kobayashi-minden/storybook_demo.git storybook
+
+cd storybook && npm install
+
+npm run storybook:serve
+```
+
+いろいろ弄ってみよう。
+
+```command
+npm run serve
+```
+
+BlockButton（src/components/BlockButton.vue）コンポーネントの他のPropsをStory knobに追加してみよう。
+
 2. 他のコンポーネントのStoryを書いてみよう。
+
+手始めにHeadLineコンポーネントのStoryを書いてみましょう。
+1週間後程度でgitを更新しますので答え合わせしてみてください。
 
 ---
 
 ## 最も重要なこと
 
-腐らせず運用すること。
+腐らせず運用すること。  
+Storybookどうでしょう。
 
 ---
 
