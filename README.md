@@ -2,11 +2,12 @@
 
 ## Storybookとは
 
-> Storybookは、React、Vue、Angularを分離してUIコンポーネントを開発するためのオープンソースツールです。これにより、見事なUIを整理して効率的に作成できます。
+> Storybookは、React、Vue、Angularを分離してUIコンポーネントを開発するためのオープンソースツールです。  
+これにより、見事なUIを整理して効率的に作成できます。
 
 [https://storybook.js.org/のサブタイトルより](https://storybook.js.org/)
 
-巷ではUIカタログとかUIテスト・ツールのように紹介されますが、  
+巷ではUIカタログとかUIテスト・ツールのように紹介されているかと思いますが、  
 とてもシンプルに言い切ると、**コンポーネント集**です。  
 コンポーネントを一覧にしてカタログ化したり、各コンポーネントの見た目や振る舞いを容易にテスト、管理できることが特徴です。
 
@@ -216,3 +217,4 @@ Storybookどうでしょう。
 - https://medium.com/japan/broken-window-2f1e27c2b544#.ebj10znmr
 - https://ja.wikipedia.org/wiki/%E5%89%B2%E3%82%8C%E7%AA%93%E7%90%86%E8%AB%96
 - https://qiita.com/takeyuichi/items/d21cb0a884e5aaac3a17
+- https://medium.com/storybookjs/component-story-format-66f4c32366df

@@ -18,6 +18,11 @@ const sizeOptions = {
   None: null
 }
 
+const themeOptions = {
+  Large: 'filled',
+  Medium: 'wired'
+}
+
 export const Normal = () => ({
   components: { BlockButton },
   props: {
@@ -29,9 +34,12 @@ export const Normal = () => ({
     },
     size: {
       default: select('Size', sizeOptions, 'medium')
+    },
+    theme: {
+      default: select('Themeeeee', themeOptions, 'filled')
     }
   },
-  template: `<BlockButton shape="rounded" :size="size" :isDisabled="isDisabled">{{ text }}</BlockButton>`
+  template: `<BlockButton shape="rounded" :theme="wired" :size="size" :isDisabled="isDisabled">{{ text }}</BlockButton>`
 });
 
 export const Disabled = () => ({
